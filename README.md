@@ -1,0 +1,1 @@
+# rails-scaffold-with-admin
