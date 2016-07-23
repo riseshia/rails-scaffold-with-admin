@@ -1,11 +1,11 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'rails/scaffold/with/admin/version'
+require 'rails_scaffold_with_admin/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "rails-scaffold-with-admin"
-  spec.version       = Rails::Scaffold::With::Admin::VERSION
+  spec.version       = RailsScaffoldWithAdmin::VERSION
   spec.authors       = ["Shia"]
   spec.email         = ["rise.shia@gmail.com"]
 
