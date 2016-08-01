@@ -1,6 +1,6 @@
 # RailsScaffoldWithAdmin
 
-Provide generater which allows to scaffold not only normal scope, but also admin controllers, views, models, helpers, tests and routes.
+Provide generator which allows to scaffold not only normal scope, but also admin controllers, views, models, helpers, tests and routes.
 
 ## Installation
 
