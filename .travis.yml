@@ -8,3 +8,11 @@ gemfile:
   - gemfiles/rails_4_0.gemfile
   - gemfiles/rails_4_1.gemfile
   - gemfiles/rails_5_0.gemfile
+
+script:
+  - bundle
+  - rails new project
+  - cd project && bundle
+  - bin/rails generate scaffold Model title:string content:text
+  - bin/rails db:migrate
+  - bin/rake
