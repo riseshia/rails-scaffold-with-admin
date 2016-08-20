@@ -11,9 +11,9 @@ script:
   - bundle
   - rails new project
   - cd project
-  - echo "gem 'sqlite'" >> Gemfile
+  - echo "gem 'sqlite3'" >> Gemfile
   - "echo 'gem \"rails-scaffold-with-admin\", github: \"riseshia/rails-scaffold-with-admin\"' >> Gemfile"
   - bundle
-  - bin/rails generate admin Model title:string content:text
+  - bin/rails generate rails_scaffold_with_admin Model title:string content:text
   - bin/rails db:migrate
   - bin/rake
