@@ -15,7 +15,7 @@ class TestRunner < CommonRunner
       "bin/rails db:migrate",
       "bin/rake"
     ].each do |command|
-      sys_run command
+      sysrun command
     end
   end
 end
