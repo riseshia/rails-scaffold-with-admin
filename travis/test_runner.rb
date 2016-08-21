@@ -19,3 +19,5 @@ class TestRunner < CommonRunner
     end
   end
 end
+
+TestRunner.new.execute
