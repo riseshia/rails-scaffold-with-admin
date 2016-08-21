@@ -9,7 +9,7 @@ class TestRunner < CommonRunner
       "bundle",
       "rails new project",
       "cd project",
-      "echo 'gem \"rails-scaffold-with-admin\", github: \"riseshia/rails-scaffold-with-admin\"' >> Gemfile",
+      'echo gem \"rails-scaffold-with-admin\", path: \"../\" >> Gemfile',
       "bundle",
       "bin/rails generate scaffold_with_admin Model title:string content:text",
       "bin/rails db:migrate",
